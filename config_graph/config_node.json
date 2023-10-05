@@ -1,0 +1,31 @@
+{
+    "nepoch": 35,
+    "batch_size": 2,
+    "loss_function": "CC",
+    "learning_rate": 0.0005,
+    "weight_decay": 0.00005,
+    "optim": "amsgrad",
+    "model":
+    {
+      "filter_type": "gat",
+      "sentence_encoder": [256, true],
+      "feature_extractor": [
+        [256, 4],
+        [256, 4],
+        [256, 4],
+        [128, 4],
+        [128, 4],
+        [128, 4],
+        [64, 4],
+        [64, 4],
+        [64, 4],
+        [32, 8],
+        [32, 8],
+        [32, 8]
+      ],
+      "normalization": "batch",
+      "activation": "leakyrelu",
+      "dropout": null
+    }
+  }
+  
