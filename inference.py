@@ -93,7 +93,7 @@ def main(args):
             embedding_vectors = item_info.get("embedding_vectors")
             text_list = item_info.get("original_contents")
         else:
-            results = pytesseract.image_to_data(img, lang='vie', config=custom_config, output_type='data.frame')
+            results = pytesseract.image_to_data(img, lang='en', config=custom_config, output_type='data.frame')
             bounding_boxes, text_list = extract_textlines(results)
             bounding_boxes = np.array(bounding_boxes)
             adjacency_matrix, neighbor_distance_list = graph_constructor(bounding_boxes)

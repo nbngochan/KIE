@@ -12,13 +12,6 @@ from graph_modules.graph_constructor import GraphConstructor
 from graph_modules.word_embedding import WordEmbedding
 from config_graph.NODE_CLASS import NODE_LABEL_MAP
 
-# RANDOM_SEED = 1402
-# CVAT_SOURCE_PREFIX = "/mnt/cvat_share/"
-# DESTINATION_PATH_PREFIX = "/mnt/data_source/prescription_KIE/"
-# XML_SOURCE = "/mnt/data_source/prescription_KIE/xml_source"
-# DESTINATION_FOLDER = "2021_1005"
-
-
 
 RANDOM_SEED = 44
 DATA_FOLDER = "D:/study/dataset/sroie-2019/raw/img"
